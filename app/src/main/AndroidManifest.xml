@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.simuladordeplanificacindeproceso">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ResultadoFifo"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".ResultadoSRTF"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ResultadoSFJ"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ResultadoRR"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ResultadoPrioridadDecrecienteNoApropiativo"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ResultadoPrioridadDecrecienteApropiativo"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ResultadoPrioridadCrecienteNoApropiativo"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ResultadoPrioridadCrecienteApropiativo"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".IngresoDatosSRTF"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".IngresoDatosSJF"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".IngresoDatosRR"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".IngresoDatosPrioridadDecrecienteNoApropiativo"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".IngresoDatosPrioridadDecrecienteApropiativo"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".IngresoDatosPrioridadCrecienteNoApropiativo"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".IngresoDatosPrioridadCrecienteApropiativo"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".IngresoDatosFifo"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

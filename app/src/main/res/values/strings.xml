@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Simulador-Lobo</string>
+
+    <string name="nombre">Nombre</string>
+    <string name="duracion">Duracion</string>
+    <string name="llegada">Llegada</string>
+    <string name="boton_calcular">Calcular</string>
+    <string name="listadoDeProceso"></string>
+    <string name="botonBorrar">Borrar todos</string>
+    <string name="botonEliminarProceso">Borrar este proceso</string>
+    <string name="txt1">Procesos almacenados:</string>
+    <string name="guardar">Guardar</string>
+    <string name="x1">FIFO</string>
+    <string name="x2">Prioridad creciente con su valor (apropiativo)</string>
+    <string name="x3">Prioridad creciente con su valor (NO apropiativo)</string>
+    <string name="x4">Prioridad decreciente con su valor (Apropiativo)</string>
+    <string name="x5">Prioridad decreciente con su valor (NO apropiativo)</string>
+    <string name="x6">RR</string>
+    <string name="x7">SJF</string>
+    <string name="x8">SRTF</string>
+    <string name="lista_de_calculos">Lista de calculos</string>Lista de ejecucion
+    <string name="Lista_de_ejecucion">Lista de ejecucion</string>
+    <string name="prioridad">Prioridad</string>
+    <string name="quantum">QUANTUM</string>
+    <string name="creador">Creador: Facundo Lobo, estudiante Unca, Correo: facundolobo2@gmail.com</string>
+    <string name="correo">Correo: facundolobo2@gmail.com</string>
+    <string name="icono">Icono diseñado por Freepik: www.flaticon.es</string>
+
+</resources>
